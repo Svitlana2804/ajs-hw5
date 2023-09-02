@@ -1,4 +1,23 @@
 #twitter {
-  width: 200px;
+  margin: 0 auto;
+  gap: 10px;
+  max-width: 100vh;
+}
+
+.card {
+  border: 2mm ridge rgba(211, 220, 50, .6);
+  width: 800px;
   height: 200px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+h2 {
+  color: blue;
+  font-weight: 300;
+}
+
+.delete__button {
+  border: dashed red;
 }
